@@ -6,6 +6,7 @@
 - 이론 설명과 Airflow 실습으로 이루어집니다.
 
 ## 실습 과정
+- 개발환경에 도커와 도커 컴포즈를 설치해주세요.
 - 현 레포지토리를 개발환경에 clone 해주세요.
 ```
  git clone https://github.com/HyeJung-Hwang/docker-tutorial.git
@@ -14,7 +15,11 @@
 ```
 cd docker-practice
 ```
-- Aiflow 실행에 필요한 환경변수를 셋팅해주세요.
+- Airflow 실행에 필요한 폴더를 만들어주세요.
+```
+mkdir -p ./logs ./plugins ./config
+```
+- Airflow 실행에 필요한 환경변수를 셋팅해주세요.
 ```
 echo -e "AIRFLOW_UID=$(id -u)" > .env
 ```
