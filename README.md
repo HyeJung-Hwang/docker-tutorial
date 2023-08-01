@@ -23,12 +23,16 @@ mkdir -p ./logs ./plugins ./config
 ```
 echo -e "AIRFLOW_UID=$(id -u)" > .env
 ```
-- Airflow 실행에 필요한 기초 작업(유저셋팅)등에 해당하는 docker compose 서비스를 먼저 실행합니다.
+- Airflow 실행에 필요한 초기화 작업(유저셋팅)등에 해당하는 docker compose 서비스를 먼저 실행합니다. 아래 이미지가 출력되면 초기화가 잘 된것입니다.
 ```
 docker compose up airflow-init
 ```
+<img width="382" alt="image" src="https://github.com/HyeJung-Hwang/docker-tutorial/assets/79091824/5f6b5bd9-317d-488b-837e-83d45bf3698f">
+
 - 전체 docker compose를 실행해주세요.
 ```
 docker compose up
 ```
+- localhost:8080 에서 Airflow Webserver 실행을 확인해주세요.
+<img width="1430" alt="image" src="https://github.com/HyeJung-Hwang/docker-tutorial/assets/79091824/a8b8b731-2aa2-4bef-91e8-f137ff4b31a9">
 
