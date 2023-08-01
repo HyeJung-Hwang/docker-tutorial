@@ -3,7 +3,7 @@
 
 ## Contents
 - BOAZ 엔지니어링 트랙 멘멘 스터디를 위해 준비한 도커 심화 세션 레포지토리입니다.
-- 이론 설명과 Airflow 실습으로 이루어집니다.
+- [이론 설명](https://bead-group-eb2.notion.site/Docker-Tutorial-by-ME-92f4f7c6216f4d879f7c36ce51d83224?pvs=4)과 Airflow 실습으로 이루어집니다.
 
 ## 실습 과정
 - 개발환경에 도커와 도커 컴포즈를 설치해주세요.
